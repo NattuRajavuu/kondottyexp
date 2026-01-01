@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#map-container {
+    width: 80%;
+    max-width: 800px;
+    height: 400px;
+    background-color: #ddd;
+    border: 2px solid #333;
+    position: relative;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#bus {
+    width: 30px;
+    height: 30px;
+    background-color: #ff5722;
+    border: 2px solid #333;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transition: left 1s linear;
+}
+
+#status-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#refresh-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
